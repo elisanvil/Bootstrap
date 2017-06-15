@@ -1,3 +1,137 @@
+@media only screen and (max-width: 400px) {
+	* {
+    box-sizing: border-box;
+	}
+
+	header#titulo h1{
+		display: none;
+	}
+
+	div.caja {
+		width: 100%;
+		background-color: #d4e3fc;
+		border: 1pt;
+		border-style: solid;
+		border-color: #cbccc1;
+		border-radius: 5%;
+		padding: 5px;
+		margin: 20pt 150pt !important;
+	}
+
+	div#perfil {
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	div#perfil h2 {
+		width: 50%;
+		border: 1pt;
+		border-style: solid;
+		border-color: black;
+		background-color:white;
+		opacity: 0.5;
+		font-size: 11px;
+		margin-right: auto;
+		margin-left: auto;
+		
+	}
+
+	div#perfil header img{
+		margin-top: -25%;
+		width:55%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		border-radius: 5%;
+	}
+
+	div#iperfil {
+		text-align: center;
+	}
+
+	div#iperfil p.u {
+		display: none;
+	}
+
+	div#iperfil p {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	div#datos h2 {
+		display: none;
+	}
+
+	div#educacion header {
+		text-align: center;
+	}
+
+	div#educacion div {
+		float: left;
+		width: 50%;
+		margin: 0px;
+		text-align: center;
+	}
+
+	div#espol p {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	div#uebcr p {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	b#materia {
+		display: none;
+	}
+
+	div#educacion img {
+		width: 90% !important;
+	}
+
+	div#educacion h4 {
+		font-size: 0.6em;
+		text-align: center;
+	}
+
+	div#educacion p {
+		margin-right: 10px;
+		font-size: 0.6em;
+		text-align: justify;
+	}
+
+	div#habilidad {
+		clear: both;
+	}
+
+	div#habilidad header {
+		text-align: center;
+	}
+
+	hr {
+		display: none;
+	}
+
+	div ul {
+		margin: 0px 10px;
+		padding: 0px;
+	}
+
+	ul li {
+		margin:0px 11px;		
+		width: 40%;
+		height: 100%;
+		float: left;
+	}
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
 header#titulo h1{
 	text-align: center;
 	margin: 15px auto;
@@ -7,9 +141,9 @@ body {
 	background-image: url("http://www.neoradio.cl/wp-content/uploads/2015/07/diseno-de-fondos-blanco-1851.jpg");
 }
 
-div img{
-	width:8%;
-	float:left;
+div img {
+	width:10%;
+	/*float:left;*/
 	margin-right: 10px;
 }
 
@@ -22,6 +156,10 @@ div.caja {
 	margin: 10pt 150pt;
 }
 
+div#perfil header h2 {
+	text-align:left;
+}
+
 div#datos header h2 {
 	text-align:center;
 }
@@ -31,13 +169,18 @@ p.anio {
 }
 
 div#espol img{
-	width:33%;
+	width:25%;
 	float:left;
 	margin-right: 10px;
 }
 
+div#espol p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
 div#uebcr img{
-	width:33%;
+	width:25%;
 	float:left;
 	margin-right: 10px;
 }
@@ -58,7 +201,7 @@ li {
 	box-shadow: 10px 10px 10px #ccccff;
 }
 
-b {
+div ul b {
 	color: white;
 	position: relative;
 	left: -10px;

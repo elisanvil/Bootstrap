@@ -15,30 +15,30 @@
       }
   </style>
   <link rel="stylesheet" href="css/estilo.css">
-
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 
 <body>
   <header id="titulo">
-    <h1>Hoja de Vida</h1>
+    <h1 class="jumbotron">Hoja de Vida</h1>
   </header>
   
   <section>
-    <div id="perfil" class="caja">
+    <div id="perfil" class="caja" class="col-xs-12 col-sm-6 col-lg-12">
+      <h2>Elizabeth Meybol Sánchez Villamar</h2>
       <header>
-        <h2>Elizabeth Meybol Sánchez Villamar</h2>
-      </header>
-
-      <div id="iperfil">
         <img src="img/profile.jpg" alt="perfil" />
-        <p>Ingeniería en Computación
-        <br/ >ESPOL
-        <br/ >Guayaquil - Ecuador
-        <br/ >EC090701</p>
+      </header>
+      
+      <div id="iperfil">
+        <p class="u">Ingeniería en Computación</p>
+        <p class="u">ESPOL</p>
+        <p>Guayaquil - Ecuador</p>
+        <p>EC090701</p>
       </div>
     </div>
 
-    <div id="datos" class="caja">
+    <div id="datos" class="caja" class="col-xs-12 col-sm-6 col-lg-12">
       <header>
         <h2>Datos Personales</h2>
       </header>
@@ -49,28 +49,28 @@
       </section>
     </div>
 
-    <div class="caja">
+    <div id="educacion" class="caja" class="col-xs-12 col-sm-6 col-lg-12">
       <header>
         <h2>Educación</h2>
       </header>
 
-      <div id="espol">
-        <section>
+      <div id="espol" class="row">
+        <section class="primera col-xs-6 col-lg-3">
           <img src="img/espol.jpg" alt="espol" />
           <h4 class="institucion">ESPOL</h4>
           <p class="anio">2012 - ?</p>
-          <p>Fundamentos de Programación - Programación básica en C
-          <br/ >Programación Orientada a Objetos - Programación en Java
-          <br/ >Estructura de Datos - Manejo de arreglos, listas, colas, pilas
-          <br/ >Fundamentos de Robótica - Control básico de un robot EV3
-          <br/ >Sistemas de Bases de Datos - Administración de Bases de Datos</p>
+          <p><b id="materia">Fundamentos de Programación - </b>Programación básica en C</p>
+          <p><b id="materia">Programación Orientada a Objetos - </b>Programación en Java</p>
+          <p><b id="materia">Estructura de Datos - </b>Manejo de arreglos, listas, colas, pilas</p>
+          <p><b id="materia">Fundamentos de Robótica - </b>Control básico de un robot EV3</p>
+          <p><b id="materia">Sistemas de Bases de Datos - </b>Administración de Bases de Datos</p>
         </section>
       </div>
       
       <hr>
 
-      <div id="uebcr">
-        <section>
+      <div id="uebcr" class="row">
+        <section class="primera col-xs-6 col-lg-3">
           <img src="img/uebcr.jpg" alt="uebcr" />
           <h4 class="institucion">UEBCR</h4>
           <p class="anio">2006 - 2012</p>
@@ -83,19 +83,18 @@
       </div>  
     </div>
     
-    <div id="habilidad" class="caja">
+    <div id="habilidad" class="caja" class="col-xs-12 col-sm-6 col-lg-12">
       <header>
         <h2>Habilidades Técnicas</h2>
       </header>
-
-      <div>
+      
         <ul>
-          <li><b>9</b>HTML5</li>
-          <li><b>5</b>CSS3</li>
-          <li><b>8</b>C</li>
-          <li><b>5</b>JAVA</li>
+          <li class="h1"><b>9</b>HTML5</li>
+          <li class="h1"><b>5</b>CSS3</li>
+          <li class="h2"><b>8</b>C</li>
+          <li class="h2"><b>5</b>JAVA</li>
         </ul>
-      </div>
+      
     </div>
   </section>
 </body>

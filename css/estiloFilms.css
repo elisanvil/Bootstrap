@@ -1,4 +1,231 @@
-header#titulo h1{
+/*Tablets*/
+@media only screen and (min-width: 600px) {
+	* {
+    	box-sizing: border-box;
+	}
+
+	header#titulo {
+		background-color: lightgrey;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	body {
+		background-color: #CFE9F5;
+	}
+
+	header#titulo h1 {
+		text-align: center;
+		margin: 15px auto;
+		font-family: 'Anton';
+		color: #414239;
+		font-size: 3em !important;
+		margin: 0px;
+	}
+
+	div li {
+		list-style: none;
+		display: inline;
+	}
+
+	div b.sinopsis {
+		display: none;
+	}
+
+	div p.sinopsis {
+		display: none;
+	}
+
+	div header h2 {
+		text-align: center;
+		font-family: 'Lobster';
+		color: #9e0947;
+		font-size: 1.5em !important;
+		margin: 10px 0px !important;
+	}
+
+	div iframe {
+		width: 280px !important; 
+		height: 190px !important; 
+		margin: 0pt 10pt 0pt 0pt;
+
+	}
+
+	div.film {
+		margin: 0px;
+		width: 50% !important;
+		height: 100% !important;
+		float: left !important;
+	}
+
+	div.film h2 {
+		text-align: center;
+
+	}
+
+	div ul {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	div ul li {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	div#p4 {
+		display: none;
+	}
+
+	div img{
+		display: none !important;
+	}
+
+	hr {
+		display: none !important;
+	}
+
+	div b {
+		color: #ce105c;
+		size: 1em !important;
+	}
+
+	div li, b, p {
+		font-family: Verdana;
+		font-size: 7.5pt !important;
+	}
+
+	div b.reparto {
+		padding-right: 0pt !important;
+	}
+
+	div.film {
+		border: 0px !important;
+		text-align: center;
+	}
+
+}
+
+/*Smartphones*/
+@media only screen and (max-width: 599px) {
+	
+	* {
+    box-sizing: border-box;
+	}
+
+	header#titulo h1{
+		text-align: center;
+		margin: 15px auto;
+		font-family: 'Anton';
+		color: #414239;
+		font-size: 3em;
+	}
+
+	body {
+		background-color: #CFE9F5;
+	}
+
+	div#p2, div#p3, div#p4 {
+		margin: 0px;
+		width: 50%;
+		height: 100%;
+		float: left;
+	}
+
+	div.film iframe {
+		display: none;
+	}
+
+	div#p1 ul {
+		display: none;
+	}
+
+	div b.sinopsis {
+		display: none;
+	}
+
+	div#p1 header {
+		font-family: 'Lobster';
+		color: #9e0947;
+		font-size: 1.5em;
+	}
+
+	div#p1 header h2 {
+		margin: 0px;
+	}
+
+	div#p2 header, div#p3 header, div#p4 header {
+		font-family: 'Lobster';
+		color: #9e0947;
+		font-size: 1.2em;
+	}
+
+	div img[alt="planvuelo"]{
+		width:50%;
+	}
+
+	div img {
+		width:90%;
+		float:left;
+		margin-right: 10px;
+		display: inline-block;
+	}
+
+	div#p2 img, div#p3 img, div#p4 img {
+		margin-top: -25%;
+	}
+
+	div img:hover {
+		opacity: 0.8;
+	}
+
+	hr#p1 {
+	  background-color: black;
+	  border-top: 2px dotted;
+	}
+
+	hr#p2, hr#p3, hr#p4, hr#p5 {
+	  display: none;
+	}
+
+	div#p1 p.sinopsis {
+		margin-right: auto;
+		text-align: justify;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	div#p2 p.sinopsis, div#p3 p.sinopsis, div#p4 p.sinopsis {
+		display: none;
+	}
+
+	div ul {
+		margin: 0px;
+		padding: 0px;
+		clear: both;
+	}
+
+	div b {
+		color: #ce105c;
+		size: 1em;
+	}
+
+	div li, b, p {
+		font-family: Verdana;
+		font-size: 7.5pt;
+	}
+
+	div li {
+		list-style: none;
+		display: inline;
+		margin: 0px;
+		padding: 0px;
+	}
+
+}
+
+
+/*header#titulo h1{
 	text-align: center;
 	margin: 15px auto;
 	font-family: 'Anton';
@@ -16,7 +243,7 @@ div.film header {
 	font-size: 2.5em;
 }
 
-div img{
+div img {
 	width:16%;
 	float:left;
 	margin-right: 10px;
@@ -28,8 +255,8 @@ div img:hover {
 }
 
 hr {
-  height: 3px;
-  background-color: black;
+  	height: 3px;
+  	background-color: black;
 }
 
 div p.sinopsis {
@@ -39,7 +266,6 @@ div p.sinopsis {
 }
 
 div b.reparto {
-	padding-right: 70pt;
 	padding-right: 70pt;
 }
 
@@ -83,4 +309,4 @@ div.film {
 	border: 1px;
 	border-style: dotted;
 	border-color: #d7d8cb;
-}
+}*/
